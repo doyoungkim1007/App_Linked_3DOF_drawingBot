@@ -6,11 +6,11 @@
 #define SERIAL_BAUDRATE   115200
 #define SERIAL3_BAUDRATE  115200
 
-char ssid[] = "U+Net04FB";       // your network SSID (name)
-char pass[] = "DDBB036677";         // your network password
+char ssid[] = "your network SSID (name)";       // your network SSID (name)
+char pass[] = "your network password";         // your network password
 int status = WL_IDLE_STATUS;  // the Wifi radio's status
 
-char server[] = "192.168.219.104";
+char server[] = "your network ip";
 
 unsigned long lastConnectionTime = 0;         // last time you connected to the server, in milliseconds
 const unsigned long postingInterval = 3000L; // delay between updates, in milliseconds
