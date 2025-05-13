@@ -2,17 +2,12 @@ import mysql.connector
 
 # Paramètres de connexion MySQL
 config = {
-    'host': '192.168.104.214',
-    'user': 'user',  # Remplacez par votre utilisateur MySQL
-    'password': 'kjh1123',  # Remplacez par votre mot de passe MySQL
+    'host': 'YOUR IP',
+    'user': 'USER_NAME',  # Remplacez par votre utilisateur MySQL
+    'password': 'PASSWORD',  # Remplacez par votre mot de passe MySQL
     'database': 'drawing_bot'
 }
-# config = {
-#     'host': 'isamu07.mycafe24.com',
-#     'user': 'isamu07',  # Remplacez par votre utilisateur MySQL
-#     'password': 'rlaehdud@1007',  # Remplacez par votre mot de passe MySQL
-#     'database': 'isamu07'
-# }
+
 
 # Initialisation de la connexion à MySQL
 def init_db():
